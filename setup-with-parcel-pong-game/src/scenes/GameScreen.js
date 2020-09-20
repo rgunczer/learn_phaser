@@ -7,7 +7,7 @@ export default class GameScreen extends Phaser.Scene {
     }
 
     preload() {
-
+        console.log('GameScreen:preload');
     }
 
     create() {

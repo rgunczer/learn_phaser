@@ -2,7 +2,7 @@ import Phaser from 'phaser';
 
 export default class TitleScreen extends Phaser.Scene {
     preload() {
-
+        console.log('TitleScreen:preload');
     }
 
     create() {
